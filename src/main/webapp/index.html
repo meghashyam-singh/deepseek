@@ -1,1 +1,55 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Namah Shivaaya</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .shiva-mantra {
+            text-align: center;
+            color: white;
+        }
+        
+        .mantra-text {
+            font-size: 4rem;
+            font-weight: bold;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        .sanskrit {
+            font-size: 2rem;
+            opacity: 0.9;
+            font-style: italic;
+        }
+        
+        @keyframes glow {
+            from {
+                text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            }
+            to {
+                text-shadow: 3px 3px 20px rgba(255,255,255,0.5), 
+                             3px 3px 30px rgba(255,255,255,0.3);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="shiva-mantra">
+        <div class="mantra-text">Om Namah Shivaaya</div>
+        <div class="sanskrit">ॐ नमः शिवाय</div>
+    </div>
+</body>
+</html>
